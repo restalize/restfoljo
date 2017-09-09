@@ -1,0 +1,403 @@
+/* r3st is here */
+
+
+/* General website css */
+
+section {
+    padding: 100px 0;
+}
+
+@media (max-width: 768px) {
+    footer .col-xs-12 {
+        text-align: center;
+    }
+}
+
+footer {
+    padding: 10px 0px;
+}
+
+section#contact .form-group textarea.form-control {
+    height: 149px;
+}
+
+.form-control::-moz-placeholder {
+    color: #606060!important;
+    opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #606060!importnat;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #606060!importnat;
+}
+
+@media (max-width: 768px) {
+    .row {
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .modal-dialog .container {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    font-family: arial;
+    letter-spacing: 0.5px;
+}
+
+
+/* sections */
+
+h2.section-heading {
+    font-family: arial;
+    color: #808080;
+    text-transform: capitalize;
+    font-weight: 100;
+    letter-spacing: 1pt;
+}
+
+#services h2.section-heading {
+    font-family: arial;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 100;
+    letter-spacing: 1pt;
+}
+
+
+/* about me */
+
+#about-me {
+    background: #f2f2f2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fcfcfc, #f1f1f2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcfcfc, #f1f1f2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media (max-width: 768px) {
+    #about-me .thumbnail {
+        display: none;
+    }
+}
+
+.blue-line {
+    border-color: #29abe2;
+    width: 100px;
+    margin: 30px 0;
+}
+
+h3.section-title {
+    font-family: arial;
+    text-transform: capitalize;
+    color: #444;
+}
+
+.fa-linkedin-square {
+    font-size: 36px;
+    color: #0077b5;
+    float: right;
+}
+
+
+/* services section */
+
+#services {
+    background: #136a8a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #243B55, #141E30);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top right, #243B55, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.blue-line-mid {
+    border-color: #29abe2;
+    width: 100px;
+}
+
+#services a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#services .col-xs-6 {
+    padding-top: 30px;
+}
+
+#services .col-xs-12 {
+    padding-top: 30px;
+}
+
+#services .fa {
+    color: #00C9FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right top, #00C9FF, #92FE9D);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right top, #00C9FF, #92FE9D);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+}
+
+.p-white {
+    color: #f4f4f4;
+}
+
+.title-of-service {
+    color: white;
+    font-family: arial;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1.1px;
+}
+
+
+/* navigation */
+
+#logocenter {
+    text-align: center;
+}
+
+.navbar-custom .navbar-toggle {
+    margin: 2px 12px;
+}
+
+#a-logo {
+    width: 165px;
+    margin-top: 4px;
+    margin-right: -50px;
+}
+
+@media (max-width: 768px) {
+    .navbar-custom {
+        background-color: #031f2e;
+        height: 70px;
+        padding-top: 10px
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-custom {
+        background-color: transparent;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-custom.affix {
+        background-color: #031f2e;
+    }
+}
+
+.navbar-custom .fa {
+    font-size: 28px;
+}
+
+@media (max-width: 768px) {
+    .navbar-custom .navbar-collapse {
+        background-color: #031f2e;
+        margin-top: 9px;
+        text-align: right;
+        border-top-width: 0px;
+        border-top: 1px solid transparent;
+        -webkit-box-shadow: inset 1px rgba(255, 255, 255, .1);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        border-top: 0px solid transparent!;
+        -webkit-box-shadow: inset 0px rgba(255, 255, 255, .1);
+        box-shadow: inset 0 0px 0 rgba(255, 255, 255, .1);
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-custom {
+        border: 0px solid transparent;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        border-width: 0px;
+    }
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-custom .navbar-toggle {
+    background-color: transparent;
+    border: none;
+    color: #00c6ff;
+}
+
+header {
+    background-image: url('../img/header_clouds.jpg');
+}
+
+header .intro-text .intro-lead-in {
+    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
+}
+
+header .intro-text .intro-heading {
+    text-shadow: 1px 1px 35px rgba(0, 0, 0, 0.15);
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        width: auto;
+        background-position: center;
+        margin-top: 70px;
+        height: auto;
+    }
+}
+
+.navbar-fixed-top {
+    border-width: 0px;
+}
+
+.navbar-custom .navbar-brand {
+    color: #ffffff;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+.navbar-collapse {
+    border-top: 0px solid transparent!important;
+    -webkit-box-shadow: inset 0px rgba(255, 255, 255, .1)!important;
+    box-shadow: inset 0px rgba(255, 255, 255, .1)!important;
+}
+
+
+/* contact */
+
+section#contact {
+    background: #16222A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #16222A, #3A6073);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #16222A, #3A6073);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url(../img/contact.jpg);
+    background-blend-mode: darken;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+
+/* Portfolio Section */
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(0, 201, 255, 0.5);
+    position: absolute;
+    width: -webkit-calc(100% - 8px);
+    width: -moz-calc(100% - 8px);
+    width: calc(100% - 8px);
+    height: -webkit-calc(100% - 8px);
+    height: -moz-calc(100% - 8px);
+    height: calc(100% - 8px);
+    opacity: 0;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    padding: 20px;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 20px;
+}
+
+
+/* Portfolio Modals */
+
+.portfolio-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 26px;
+    padding-right: 30px;
+}
+
+.portfolio-modal .modal-dialog {
+    height: auto;
+}
+
+
+@media (min-width: 970px) {
+.portfolio-modal .modal-content {
+    padding: 60px 0;
+}
+}
+@media (min-width: 1170px) {
+    .portfolio-modal .modal-dialog {
+        margin: 20px auto;
+        max-width: 1200px;
+
+    }
+}
+
+@media (max-width: 970px) {
+    .portfolio-modal .modal-content {
+        padding: 0 0 15px 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .portfolio-modal .modal-dialog {
+        margin: 10px;
+    }
+}
+
+
+/* shit 
+
+@media (max-width: 1200px) {
+.portfolio-modal .modal-dialog {
+    margin: 10px;
+}
+}
+
+@media (max-width: 970px) {
+.portfolio-modal .modal-content {
+    padding: 0px 0;
+}
+}
+
+shit */
+
+.close-modal {
+    width: 70px!important;
+    height: 45px!important;
+    top: 10px!important;
+    right: 0px!important;
+    z-index: 999;
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    height: 45px;
+}
+
+.portfolio-modal .close-modal .lr {
+    height: 45px;
+}
