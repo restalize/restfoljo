@@ -147,15 +147,15 @@ h3.section-title {
 }
 
 #services .fa {
-    color: #00C9FF;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right top, #00C9FF, #92FE9D);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right top, #00C9FF, #92FE9D);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #fc00ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom top left, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom left, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 10px;
+    font-size: 60px;
+    
+    
 }
 
 .p-white {
@@ -313,6 +313,7 @@ section#contact {
 
 /* Portfolio Section */
 
+
 #portfolio .portfolio-caption h4 {
     line-height: 22px;
 padding-bottom:6px
@@ -347,6 +348,27 @@ padding-bottom:6px
 
 
 /* Portfolio Modals */
+
+.text-centered h2{
+    text-align: center;
+ padding-left:30px;
+}
+
+
+@media (min-width: 970px) {
+   .modal-body .text-centered {
+        margin-top:-50px
+    }
+      .modal-body .text-left {
+        margin-top:-20px
+    }
+}
+
+
+
+.portfolio-modal hr {
+    border-color:#d2d8e0;
+}
 
 
 
