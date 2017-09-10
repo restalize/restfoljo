@@ -397,7 +397,6 @@ padding-bottom:6px
     .portfolio-modal .modal-dialog {
         margin: 20px auto;
         max-width: 1200px;
-
     }
 }
 
@@ -410,6 +409,14 @@ padding-bottom:6px
 @media (max-width: 1200px) {
     .portfolio-modal .modal-dialog {
         margin: 10px;
+    }
+}
+
+
+@media (min-width: 1330px) {
+    .portfolio-modal .modal-dialog {
+        margin: 20px auto;
+        max-width: 1300px;
     }
 }
 
