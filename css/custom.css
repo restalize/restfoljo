@@ -3,6 +3,15 @@
 
 /* General website css */
 
+.navbar-custom .navbar-nav>.active>a {
+    background-color:#00c6ff;
+    
+}
+
+.navbar-nav {
+    margin: 0 -15px;
+}
+
 section {
     padding: 100px 0;
 }
@@ -29,7 +38,7 @@ section#contact .form-group textarea.form-control {
 }
 
 .form-control:-ms-input-placeholder {
-    color: #999!importnat;
+    color: #999!important;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -86,6 +95,7 @@ h2.section-heading {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fcfcfc, #f1f1f2);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    z-index: 2;
 }
 
 
@@ -197,8 +207,8 @@ background: linear-gradient(to top, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ 
 @media (max-width: 768px) {
     .navbar-custom {
         background-color: #031f2e;
-        height: 70px;
-        padding-top: 10px
+        height: 60px;
+        padding-top: 4px
     }
 }
 
@@ -221,7 +231,7 @@ background: linear-gradient(to top, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ 
 @media (max-width: 768px) {
     .navbar-custom .navbar-collapse {
         background-color: #031f2e;
-        margin-top: 9px;
+        margin-top: 4px;
         text-align: right;
         border-top-width: 0px;
         border-top: 1px solid transparent;
@@ -262,7 +272,9 @@ background: linear-gradient(to top, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ 
 }
 
 header {
+
     background-image: url('../img/header_clouds.jpg');
+
 }
 
 header .intro-text .intro-lead-in {
@@ -270,14 +282,15 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    text-shadow: 1px 1px 35px rgba(0, 0, 0, 0.15);
+    text-shadow: 1px 1px 25px rgba(0, 0, 0, 0.25);
 }
 
 @media only screen and (max-width: 768px) {
     header {
         width: auto;
-        background-position: center;
-        margin-top: 70px;
+    background-position: bottom;
+        margin-top: 60px;
+
         height: auto;
     }
 }
@@ -397,13 +410,15 @@ padding-bottom:6px
         padding: 0 0 15px 0;
     }
 }
+/* 
+------ 10px margin at modal device -----
 
 @media (max-width: 1200px) {
     .portfolio-modal .modal-dialog {
         margin: 10px;
     }
 }
-
+*/
 
 @media (min-width: 1330px) {
     .portfolio-modal .modal-dialog {
