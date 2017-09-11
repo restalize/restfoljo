@@ -273,7 +273,7 @@ background: linear-gradient(to top, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ 
 
 header {
 
-    background-image: url('../img/header_clouds.jpg');
+    background-image: url('../img/header_connecteddots.jpg');
 
 }
 
@@ -282,7 +282,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    text-shadow: 1px 1px 25px rgba(0, 0, 0, 0.25);
+    text-shadow: 1px 1px 25px rgba(0, 0, 0, 0.15);
 }
 
 @media only screen and (max-width: 768px) {
