@@ -1,10 +1,27 @@
 /* r3st is here in bloodbath*/
 
 #particles-js {
-    
-      -webkit-animation-duration: 5s;
-      -webkit-animation-delay: 1s;
-    
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1s;
+
+    animation: blurrie 3s;
+}
+
+@keyframes blurrie {
+    0% {
+        -webkit-filter: blur(8px);
+        -moz-filter: blur(8px);
+        -o-filter: blur(8px);
+        -ms-filter: blur(8px);
+        filter: blur(8px);
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        -moz-filter: blur(0px);
+        -o-filter: blur(0px);
+        -ms-filter: blur(0px);
+        filter: blur(0px);
+    }
 }
 
 
@@ -13,8 +30,7 @@
 /* General website css */
 
 .navbar-custom .navbar-nav>.active>a {
-    background-color:#00c6ff;
-    
+    background-color: #00c6ff;
 }
 
 .navbar-nav {
@@ -34,7 +50,7 @@ section {
 footer {
     padding: 10px 0px;
     background-color: #141e30;
-    color:whitesmoke;
+    color: whitesmoke;
 }
 
 section#contact .form-group textarea.form-control {
@@ -107,9 +123,6 @@ h2.section-heading {
     z-index: 2;
 }
 
-
-
-
 @media (max-width: 768px) {
     #about-me .thumbnail {
         display: none;
@@ -135,47 +148,40 @@ h3.section-title {
 }
 
 
-
-
-
 /* services section */
 
 #services .fa-magic {
-
-      -webkit-animation-duration: 0.7s;
-      -webkit-animation-delay: 0.2s;
+    -webkit-animation-duration: 0.7s;
+    -webkit-animation-delay: 0.2s;
 }
 
 #services .fa-bars {
-  -webkit-animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
 }
 
 #services .fa-gear {
-  -webkit-animation-delay: 0.7s;
+    -webkit-animation-delay: 0.7s;
 }
 
 #services .fa-code {
-  -webkit-animation-delay: 0.9s;
+    -webkit-animation-delay: 0.9s;
 }
 
 #services .fa-area-chart {
-  -webkit-animation-delay: 1s;
-    
+    -webkit-animation-delay: 1s;
 }
 
 #services .title-of-service {
-      -webkit-animation-delay: 1.2s;
+    -webkit-animation-delay: 1.2s;
 }
 
-
 #services {
-
-background: #141E30;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-
+    background: #141E30;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #243B55, #141E30);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #243B55, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .blue-line-mid {
@@ -197,19 +203,15 @@ background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fir
 }
 
 #services .fa {
-    
-    
-background: #1FA2FF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    
+    background: #1FA2FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #A6FFCB, #12D8FA, #1FA2FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #A6FFCB, #12D8FA, #1FA2FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 10px;
-
-
-    
 }
 
 .p-white {
@@ -309,28 +311,24 @@ background: linear-gradient(to top, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ 
 }
 
 header {
-
     background-image: url('../img/header_connecteddots.jpg');
 }
 
-
-
 header .intro-text .intro-lead-in {
     text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
-    padding-bottom:30px;
+    padding-bottom: 30px;
 }
 
 header .intro-text .intro-heading {
     text-shadow: 1px 1px 25px rgba(0, 0, 0, 0.15);
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 768px) {
     header {
         width: auto;
-    background-position: bottom;
+        background-position: bottom;
         margin-top: 60px;
-
         height: auto;
     }
 }
@@ -354,19 +352,20 @@ header .intro-text .intro-heading {
 /* contact */
 
 section#contact {
-background: #141E30;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #141E30;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #243B55, #141E30);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #243B55, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
 /* Portfolio Section */
 
-
 #portfolio .portfolio-caption h4 {
     line-height: 22px;
-padding-bottom:6px
+    padding-bottom: 6px
 }
 
 .text-muted {
@@ -399,28 +398,23 @@ padding-bottom:6px
 
 /* Portfolio Modals */
 
-.text-centered h2{
+.text-centered h2 {
     text-align: center;
- padding-left:30px;
+    padding-left: 30px;
 }
-
 
 @media (min-width: 970px) {
-   .modal-body .text-centered {
-        margin-top:-50px
+    .modal-body .text-centered {
+        margin-top: -50px
     }
-      .modal-body .text-left {
-        margin-top:-20px
+    .modal-body .text-left {
+        margin-top: -20px
     }
 }
-
-
 
 .portfolio-modal hr {
-    border-color:#d2d8e0;
+    border-color: #d2d8e0;
 }
-
-
 
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
@@ -432,12 +426,12 @@ padding-bottom:6px
     height: auto;
 }
 
-
 @media (min-width: 970px) {
-.portfolio-modal .modal-content {
-    padding: 60px 0;
+    .portfolio-modal .modal-content {
+        padding: 60px 0;
+    }
 }
-}
+
 @media (min-width: 1170px) {
     .portfolio-modal .modal-dialog {
         margin: 20px auto;
@@ -450,6 +444,8 @@ padding-bottom:6px
         padding: 0 0 15px 0;
     }
 }
+
+
 /* 
 ------ 10px margin at modal device -----
 
@@ -485,25 +481,14 @@ padding-bottom:6px
 shit */
 
 
-
-
 /* -----
 Particle effect wow starting now
 ------- */
 
 
-
 /* -----
 Particle effect wow ends
 ------- */
-
-
-
-
-
-
-
-
 
 .close-modal {
     width: 70px!important;
@@ -520,5 +505,3 @@ Particle effect wow ends
 .portfolio-modal .close-modal .lr {
     height: 45px;
 }
-
-
