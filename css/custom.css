@@ -1,4 +1,13 @@
-/* r3st is here */
+/* r3st is here in bloodbath*/
+
+#particles-js {
+    
+      -webkit-animation-duration: 5s;
+      -webkit-animation-delay: 1s;
+    
+}
+
+
 
 
 /* General website css */
@@ -130,6 +139,34 @@ h3.section-title {
 
 
 /* services section */
+
+#services .fa-magic {
+
+      -webkit-animation-duration: 0.7s;
+      -webkit-animation-delay: 0.2s;
+}
+
+#services .fa-bars {
+  -webkit-animation-delay: 0.5s;
+}
+
+#services .fa-gear {
+  -webkit-animation-delay: 0.7s;
+}
+
+#services .fa-code {
+  -webkit-animation-delay: 0.9s;
+}
+
+#services .fa-area-chart {
+  -webkit-animation-delay: 1s;
+    
+}
+
+#services .title-of-service {
+      -webkit-animation-delay: 1.2s;
+}
+
 
 #services {
 
@@ -274,15 +311,18 @@ background: linear-gradient(to top, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ 
 header {
 
     background-image: url('../img/header_connecteddots.jpg');
-
 }
+
+
 
 header .intro-text .intro-lead-in {
     text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
+    padding-bottom:30px;
 }
 
 header .intro-text .intro-heading {
     text-shadow: 1px 1px 25px rgba(0, 0, 0, 0.15);
+    margin-bottom:10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -480,3 +520,5 @@ Particle effect wow ends
 .portfolio-modal .close-modal .lr {
     height: 45px;
 }
+
+
