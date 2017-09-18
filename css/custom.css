@@ -1,33 +1,46 @@
 /* r3st is here in bloodbath*/
 
-#particles-js {
-    -webkit-animation-duration: 3s;
-    -webkit-animation-delay: 1s;
-
-    animation: blurrie 3s;
-}
-
-@keyframes blurrie {
-    0% {
-        -webkit-filter: blur(8px);
-        -moz-filter: blur(8px);
-        -o-filter: blur(8px);
-        -ms-filter: blur(8px);
-        filter: blur(8px);
-    }
-    100% {
-        -webkit-filter: blur(0px);
-        -moz-filter: blur(0px);
-        -o-filter: blur(0px);
-        -ms-filter: blur(0px);
-        filter: blur(0px);
-    }
-}
 
 
 
 
 /* General website css */
+
+
+
+
+#particles-js{
+  width: 100%;
+  height:680px;
+    position:absolute;
+}
+
+@media (max-width: 1330px) {
+#particles-js{
+
+height:870px;
+}
+}
+
+@media (max-width: 768px) {
+#particles-js{
+
+height:400px;
+}
+}
+
+@media (max-width: 468px) {
+#particles-js{
+
+height:470px;
+}
+}
+
+
+
+
+
+
 
 .navbar-custom .navbar-nav>.active>a {
     background-color: #00c6ff;
@@ -145,6 +158,8 @@ h3.section-title {
     font-size: 36px;
     color: #0077b5;
     float: right;
+    position:relative;
+    bottom:10px;
 }
 
 
@@ -311,8 +326,22 @@ h3.section-title {
 }
 
 header {
-    background-image: url('../img/header_connecteddots.jpg');
+
+    background-image: url('../img/AV_header_2.jpg') ;
+    background-size:auto;
+box-shadow: inset 0px 0px 50px 1px rgba(0, 0, 0, 0.13);
+
 }
+
+
+@media only screen and (min-width: 768px) {
+    header {
+    background-attachment: fixed;
+    background-position:center -66px;
+    }
+}
+
+
 
 header .intro-text .intro-lead-in {
     text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
@@ -329,7 +358,7 @@ header .intro-text .intro-heading {
         width: auto;
         background-position: bottom;
         margin-top: 60px;
-        height: auto;
+         background-size:cover;
     }
 }
 
@@ -505,3 +534,4 @@ Particle effect wow ends
 .portfolio-modal .close-modal .lr {
     height: 45px;
 }
+
