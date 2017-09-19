@@ -27,7 +27,7 @@ height:400px;
 @media (max-width: 468px) {
 #particles-js{
 
-height:335px;
+height:330px;
 }
 }
 
@@ -85,6 +85,23 @@ section#contact .form-group textarea.form-control {
     }
 }
 
+
+@media (max-width: 768px) {
+    .modal-body {
+    padding: 15px 5px 15px 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+    padding-left:5px;
+        padding-right:5px;
+    }
+}
+
+
+
+
 @media (max-width: 768px) {
     .modal-dialog .container {
         padding-right: 0;
@@ -92,11 +109,14 @@ section#contact .form-group textarea.form-control {
     }
 }
 
+
+
 p {
     font-size: 16px;
     color: #555;
     font-family: arial;
     letter-spacing: 0.5px;
+    line-height: 1.7;
 }
 
 
@@ -394,7 +414,7 @@ section#contact {
 }
 
 .text-muted {
-    line-height: 22px
+    line-height: 20px
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
