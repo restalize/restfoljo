@@ -1,5 +1,3 @@
-/* ---- Rest JS ---- */
-
 
 /* ---- particles.js config ---- */
 
