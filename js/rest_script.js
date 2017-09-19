@@ -21,3 +21,4 @@ $famagic&$fabars&$fagear&$facode&$faareachart&$titleofservice.waypoint(function 
     , {
         offset: '90%'
     });
+
