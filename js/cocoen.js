@@ -14,7 +14,7 @@ class Cocoen {
 
   createElements() {
     // Create drag element
-    const span = document.createElement('span');
+    const span = document.createElement('dragg');
     span.className = this.options.dragElementSelector.replace('.', '');
     this.element.appendChild(span);
     // Wrap first image in div

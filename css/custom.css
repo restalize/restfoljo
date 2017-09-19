@@ -13,6 +13,7 @@
   width: 100%;
   height:680px;
     position:absolute;
+    z-index:99;
 }
 
 
@@ -34,7 +35,12 @@ height:330px;
 
 
 
+.g-recaptcha {
+display:table;
+    
+margin: 0 auto 20px auto;
 
+}
 
 
 .navbar-custom .navbar-nav>.active>a {
@@ -46,7 +52,7 @@ height:330px;
 }
 
 section {
-    padding: 100px 0;
+    padding: 120px 0;
 }
 
 @media (max-width: 768px) {
@@ -82,6 +88,8 @@ section#contact .form-group textarea.form-control {
     .row {
         margin-right: 0;
         margin-left: 0;
+        padding-left: 5px;
+        padding-right:5px;
     }
 }
 
@@ -112,7 +120,7 @@ p {
 }
 
 
-/* sections */
+/*=================== SECTIONS  ====================*/
 
 h2.section-heading {
     font-family: arial;
@@ -121,6 +129,19 @@ h2.section-heading {
     font-weight: 100;
     letter-spacing: 1pt;
 }
+
+
+header .intro-lead-in {
+        -webkit-animation-duration: 1.2s;
+    -webkit-animation-delay: 3s;
+}
+
+
+header .intro-heading {
+        -webkit-animation-duration: 1.2s;
+    -webkit-animation-delay: 1.5s;
+}
+
 
 #services h2.section-heading {
     font-family: arial;
@@ -170,39 +191,56 @@ h3.section-title {
 }
 
 
-/* services section */
+/* ==============  services section ==============*/
 
-#services .fa-magic {
-    -webkit-animation-duration: 0.7s;
-    -webkit-animation-delay: 0.2s;
-}
 
-#services .fa-bars {
-    -webkit-animation-delay: 0.5s;
-}
 
-#services .fa-gear {
-    -webkit-animation-delay: 0.7s;
-}
-
-#services .fa-code {
-    -webkit-animation-delay: 0.9s;
-}
-
-#services .fa-area-chart {
-    -webkit-animation-delay: 1s;
+#services .fa {
+   opacity:0;
 }
 
 #services .title-of-service {
-    -webkit-animation-delay: 1.2s;
+   opacity:0;
+}
+
+#services .animated{
+   opacity:1;
+}
+
+
+
+#services .fa-magic {
+    -webkit-animation-duration: 0.6s;
+    -webkit-animation-delay: 0s;
+}
+
+#services .fa-bars {
+    -webkit-animation-delay: 0.3s;
+}
+
+#services .fa-gear {
+    -webkit-animation-delay: 0.5s;
+}
+
+#services .fa-code {
+    -webkit-animation-delay: 0.7s;
+}
+
+#services .fa-area-chart {
+    -webkit-animation-delay: 0.9s;
+}
+
+#services .title-of-service {
+    -webkit-animation-delay: 1s;
 }
 
 #services {
+    
     background: #141E30;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #243B55, #141E30);
+    background: -webkit-linear-gradient(to top, #1d3d5d, #141f30);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #243B55, #141E30);
+    background: linear-gradient(to bottom, #1d3d5d, #141f30);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
