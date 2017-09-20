@@ -6,9 +6,12 @@
 
 /* General website css */
 
-
+.offloader {
+    display:none;
+}
 
 .loader {
+    display:block;
 	position: fixed;
 	left: 0px;
 	top: 0px;
@@ -17,6 +20,8 @@
 	z-index: 9999;
 	background: url('../img/Preloader_2.gif') 50% 50% no-repeat white;
 }
+
+
 
 
 
@@ -387,6 +392,7 @@ header {
     background-size:auto;
 box-shadow: inset 0px 0px 50px 1px rgba(0, 0, 0, 0.13);
     max-height:680px;
+    background-color:#08354c;
 
 }
 
@@ -395,6 +401,14 @@ box-shadow: inset 0px 0px 50px 1px rgba(0, 0, 0, 0.13);
     header {
     background-attachment: fixed;
     background-position:center -66px;
+    }
+}
+
+@media only screen and (min-width: 1921px) {
+    header {
+    background-size:contain;
+background-position:center -180px; 
+
     }
 }
 

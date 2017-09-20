@@ -21,4 +21,12 @@ $famagic&$fabars&$fagear&$facode&$faareachart&$titleofservice.waypoint(function 
     , {
         offset: '90%'
     });
+/*
+$(window).onload(function() {
+	$(".loader").fadeOut("slow");
+})
+*/
 
+$(window).on('load', function (){
+   $(".loader").removeClass("loader");
+}); 
