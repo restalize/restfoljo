@@ -1,5 +1,7 @@
 
+
 /* ---- particles.js config ---- */
+
 
 particlesJS("particles-js", {
     "particles": {
@@ -111,5 +113,4 @@ particlesJS("particles-js", {
     },
     "retina_detect": true
 });
-
 

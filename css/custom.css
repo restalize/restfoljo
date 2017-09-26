@@ -270,9 +270,9 @@ h3.section-title {
 #services {
 	background: #141E30;
 	/* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #1d3d5d, #141f30);
+	background: -webkit-radial-gradient(ellipse to top, #1d3d5d, #0a121f);
 	/* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #1d3d5d, #141f30);
+	background: radial-gradient(ellipse at bottom, #1d3955, #0a121f);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -486,6 +486,41 @@ section#contact {
 
 
 
+
+#portfolio .portfolio-item .portfolio-link {
+max-width:360px;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+ 	padding: 20px 10px;
+    max-width: 360px;
+	background-color:#f7f7f7;
+	border-left: 1px solid #dedede;
+		border-right: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+		 border-radius: 0 0 4px 4px;
+	margin-top:-3px;
+	
+}
+
+
+#portfolio .container-fluid {
+	max-width:1560px;
+}
+
+@media screen and (max-width: 1580px) {
+#portfolio .container-fluid {
+	max-width:1170px;
+}
+}
+
+@media screen and (max-width: 1580px) and (min-width:1000px) {
+#portfolio .container-fluid .col-md-4 {
+	width:33.33%;
+}
+}
+
+
 #portfolio .portfolio-caption h4 {
 	line-height: 22px;
 	padding-bottom: 6px
@@ -511,9 +546,6 @@ section#contact {
 	-moz-transition: all ease 0.5s;
 }
 
-#portfolio .portfolio-item .portfolio-caption {
-	padding: 20px;
-}
 
 .portfolio-modal .modal-content p.item-intro {
 	margin: 20px 0 20px;
