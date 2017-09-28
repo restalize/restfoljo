@@ -94,8 +94,18 @@ section#contact .form-group textarea.form-control {
 
 @media (max-width: 768px) {
 	.modal-body {
-		padding: 15px 5px 15px 5px;
+		padding: 15px 0px;
 	}
+}
+
+@media (min-width: 768px) {
+	.modal-body {
+		padding: 0;
+	}
+}
+
+#portfolioModallivePlus .row .text-centered img {
+	padding:20px 50px 0px 50px;
 }
 
 @media (max-width: 768px) {
@@ -152,11 +162,15 @@ section#contact .form-group textarea.form-control {
 	}
 }
 
-p {
+p, ul, li{
 	font-size: 16px;
 	color: #555;
 	font-family: arial;
 	letter-spacing: 0.2px;
+}
+
+li {
+	line-height: 2.1;
 }
 
 
@@ -267,6 +281,8 @@ h3.section-title {
 	-webkit-animation-delay: 1s;
 }
 
+
+
 #services {
 	background: #141E30;
 	/* fallback for old browsers */
@@ -275,6 +291,18 @@ h3.section-title {
 	background: radial-gradient(ellipse at bottom, #1d3955, #0a121f);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+@media screen and (max-width: 700px) {
+#services {
+	background: #141E30;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(bottom, #1d3d5d, #0a121f);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(bottom, #1d3955, #0a121f);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+}
+
 
 .blue-line-mid {
 	border-color: #29abe2;
@@ -500,7 +528,7 @@ max-width:360px;
 	border-bottom: 1px solid #dedede;
 		 border-radius: 0 0 4px 4px;
 	margin-top:-3px;
-	
+
 }
 
 
@@ -559,7 +587,7 @@ max-width:360px;
 }
 
 .image-before {
-	
+
  display: block;
   width: 100%;
   height: auto;
@@ -641,7 +669,7 @@ opacity:0;
 		margin: 20px auto;
 		max-width: 1300px;
 	}
-	
+
 }
 
 */
