@@ -165,7 +165,7 @@ section#contact .form-group textarea.form-control {
 p, ul, li{
 	font-size: 16px;
 	color: #555;
-	font-family: arial;
+
 	letter-spacing: 0.2px;
 }
 
@@ -177,7 +177,6 @@ li {
 /*=================== SECTIONS  ====================*/
 
 h2.section-heading {
-	font-family: arial;
 	color: #808080;
 	text-transform: capitalize;
 	font-weight: 100;
@@ -195,7 +194,6 @@ header .intro-heading {
 }
 
 #services h2.section-heading {
-	font-family: arial;
 	color: white;
 	text-transform: capitalize;
 	font-weight: 100;
@@ -228,7 +226,6 @@ header .intro-heading {
 }
 
 h3.section-title {
-	font-family: arial;
 	text-transform: capitalize;
 	color: #444;
 }
@@ -340,7 +337,7 @@ h3.section-title {
 
 .title-of-service {
 	color: white;
-	font-family: arial;
+
 	font-weight: 300;
 	font-size: 18px;
 	letter-spacing: 1.1px;
@@ -488,7 +485,6 @@ header .intro-text .intro-heading {
 
 .navbar-custom .navbar-brand {
 	color: #ffffff;
-	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 
 .navbar-collapse {
