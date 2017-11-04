@@ -1,0 +1,1 @@
+[30-Oct-2017 13:09:44 +0200]: <9bhao4mu> IMAP Error: Login failed for amard from 62.74.5.47. AUTHENTICATE PLAIN: Authentication failed. in /home/amardvila/public_html/roundcube/program/lib/Roundcube/rcube_imap.php on line 196 (POST /roundcube/?_task=login&_action=login)

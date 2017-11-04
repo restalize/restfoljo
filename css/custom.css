@@ -185,12 +185,12 @@ h2.section-heading {
 }
 
 header .intro-lead-in {
-	-webkit-animation-duration: 1.2s;
-	-webkit-animation-delay: 3s;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 2s;
 }
 
 header .intro-heading {
-	-webkit-animation-duration: 1.2s;
+	-webkit-animation-duration: 1s;
 	-webkit-animation-delay: 1.5s;
 }
 
